@@ -36,7 +36,7 @@ class InverseKinematicsSLSQP:
     
     def _cost_fun_derivative(self, q: np.array):
         q_diff = q - self._q0
-        return self._q0_weight*2*q_diff + 2*self._q_center_weight*q
+        return self._q0_weight*2*q_diff + self._q_center_weight*2*q
 
     def _pose_error(self, q: np.array):
         Trobot = self._robot_model.fkine(q, end=self._robot_model.ee_links[0])
