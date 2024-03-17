@@ -1,6 +1,4 @@
-# Copyright (c) 2024 Raphael Rätz
-# Author: Raphael Rätz
-# Email: raphael.raetz@hotmail.com
+# Copyright (c) 2024 rraetz
 
 import roboticstoolbox as rtb
 import spatialmath as sm

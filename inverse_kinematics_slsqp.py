@@ -1,3 +1,5 @@
+# Copyright (c) 2024 rraetz
+
 import roboticstoolbox as rtb
 import spatialmath as sm
 import numpy as np
