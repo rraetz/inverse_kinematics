@@ -12,5 +12,5 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-Check the example at the end of the [inverse_kinematics_slsqp.py](/inverse_kinematics_slsqp.py) file.
+Check the example at the end of the [inverse_kinematics_slsqp.py](/inverse_kinematics_slsqp.py) file. You can simply run the entire file to see the solver in action.
 
